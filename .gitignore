@@ -1,0 +1,6 @@
+# GitHub 100MB limit - rendered videos and archives stay local
+*.7z
+out/*.mp4
+__pycache__/
+*.pyc
+.env

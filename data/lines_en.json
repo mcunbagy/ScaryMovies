@@ -1,0 +1,446 @@
+{
+ "lang": "en",
+ "out": "donner_pass",
+ "title": "DONNER PASS",
+ "night": "NIGHT 1/5",
+ "lead": 0.3,
+ "tail": 2.1,
+ "voices": {
+  "nar": [
+   "en-US-BrianNeural",
+   "+10%",
+   "+0Hz"
+  ],
+  "you": [
+   "en-US-AndrewNeural",
+   "+0%",
+   "+0Hz"
+  ],
+  "center": [
+   "en-US-JennyNeural",
+   "+12%",
+   "-4Hz"
+  ],
+  "jak": [
+   "en-US-GuyNeural",
+   "+18%",
+   "+0Hz"
+  ],
+  "whisper": [
+   "en-US-ChristopherNeural",
+   "-10%",
+   "-14Hz"
+  ]
+ },
+ "anchors": {
+  "l02:çığ": "avalanche",
+  "l02:kapattı": "closed",
+  "l02:en": "nearest",
+  "l02:on": "nine",
+  "l03:sönüyor": "out",
+  "l06:size": "nobody",
+  "l10:on": "twelve",
+  "l11:kötü": "bad",
+  "l11:gazı": "propane",
+  "l11:iki": "two",
+  "l11:yeter": "nights",
+  "l16:ama": "but",
+  "l16:basmadın": "pressed",
+  "l17:ayak": "footprints",
+  "l18:yok": "none",
+  "l20:iki": "two",
+  "l21:altı": "six",
+  "l22:birini": "one",
+  "l27b:nöbetçi": "real",
+  "l27b:benim": "watchman",
+  "l28:açar": "open",
+  "l28:mıydın": "door",
+  "l29:ikinci": "follow"
+ },
+ "ui": {
+  "km": "MI",
+  "km_val": "9",
+  "lcd": "DISPATCH 155.475",
+  "radio_head": "DISPATCH",
+  "radio_msg": [
+   "STORM WILL LAST 5 DAYS.",
+   "NOBODY CAN REACH YOU."
+  ],
+  "rule": "RULE",
+  "rule1": "CHECK IN ON THE\nRADIO EVERY HOUR",
+  "rule2": "IF YOU HEAR YOUR OWN VOICE\nDO NOT ANSWER",
+  "rule3": "DO NOT OPEN THE DOOR\nFOR ANYONE",
+  "cans": "CANS OF SOUP",
+  "bad": "BAD NEWS",
+  "gas_val": "PROPANE: 2",
+  "gas": "NIGHTS",
+  "storm_val": "STORM: 5",
+  "storm": "DAYS",
+  "tracks": "TRACKS LEAVING",
+  "left": "LEFT",
+  "book": "STATION LOG",
+  "book_sub": "DONNER PASS SNOW STATION",
+  "log": [
+   "10:00 PM  All clear.",
+   "11:00 PM  All clear.",
+   "12:00 AM  All clear.",
+   "1:00 AM  All clear.",
+   "2:00 AM  All clear.",
+   "3:00 AM  All clear."
+  ],
+  "log_last": "3:24 AM  I opened the door.",
+  "checkins": "CHECK-INS",
+  "yours": "YOURS",
+  "cta1": "WOULD YOU",
+  "cta2": "OPEN",
+  "cta3": "THE DOOR?",
+  "yes": "OPEN",
+  "no": "DON'T",
+  "follow_a": "FOLLOW",
+  "follow_b": "FOR NIGHT 2",
+  "end_a": "DONNER",
+  "end_b": "PASS",
+  "temp_a": "-11°F",
+  "temp_b": "-17°F",
+  "road": "I-80 CLOSED",
+  "tags": {
+   "center": "DISPATCH",
+   "you": "YOU",
+   "you_radio": "RADIO",
+   "jak": "AT THE DOOR",
+   "whisper": "AT THE DOOR"
+  }
+ },
+ "lines": [
+  {
+   "id": "l01",
+   "scene": "mountain",
+   "voice": "nar",
+   "say": "You're the night watchman at a snow station on Donner Pass. The same pass that trapped the Donner Party.",
+   "hi": {
+    "watchman": "o",
+    "donner": "o",
+    "trapped": "r"
+   },
+   "gap": 0.23
+  },
+  {
+   "id": "l02",
+   "scene": "road",
+   "voice": "nar",
+   "say": "An avalanche just closed I-80. The nearest person is nine miles down.",
+   "hi": {
+    "avalanche": "r",
+    "closed": "r",
+    "nine": "o",
+    "miles": "o"
+   },
+   "gap": 0.27
+  },
+  {
+   "id": "l03",
+   "scene": "valley",
+   "voice": "nar",
+   "say": "At 2 AM, every light in the town below goes out.",
+   "hi": {
+    "2": "o",
+    "am": "o",
+    "out": "r"
+   },
+   "gap": 0.08
+  },
+  {
+   "id": "l04",
+   "scene": "valley",
+   "voice": "nar",
+   "say": "All at once.",
+   "hi": {
+    "all": "r",
+    "once": "r"
+   },
+   "gap": 0.27
+  },
+  {
+   "id": "l05",
+   "scene": "radio",
+   "voice": "nar",
+   "say": "Then dispatch radios in.",
+   "hi": {
+    "dispatch": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l06",
+   "scene": "radio",
+   "voice": "center",
+   "say": "The storm will last five days. Nobody can reach you.",
+   "hi": {
+    "five": "o",
+    "days": "o",
+    "nobody": "r"
+   },
+   "q": true,
+   "gap": 0.23
+  },
+  {
+   "id": "l07",
+   "scene": "rule1",
+   "voice": "nar",
+   "say": "Rule one: check in every hour.",
+   "hi": {
+    "every": "o",
+    "hour": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l08",
+   "scene": "rule2",
+   "voice": "nar",
+   "say": "Rule two: if you hear your own voice on the radio, don't answer.",
+   "hi": {
+    "own": "o",
+    "voice": "o",
+    "don't": "r",
+    "answer": "r",
+    "don": "r"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l09",
+   "scene": "rule3",
+   "voice": "nar",
+   "say": "Rule three: don't open the door. For anyone.",
+   "hi": {
+    "anyone": "r"
+   },
+   "gap": 0.23
+  },
+  {
+   "id": "l10",
+   "scene": "shelf",
+   "voice": "nar",
+   "say": "Twelve cans of soup on the shelf.",
+   "hi": {
+    "twelve": "o",
+    "cans": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l11",
+   "scene": "heater",
+   "voice": "nar",
+   "say": "Bad news: the propane only lasts two nights.",
+   "hi": {
+    "bad": "r",
+    "news": "r",
+    "two": "r",
+    "nights": "r"
+   },
+   "gap": 0.27
+  },
+  {
+   "id": "l12",
+   "scene": "report",
+   "voice": "nar",
+   "say": "At 3 AM, you check in.",
+   "hi": {
+    "3": "o",
+    "am": "o"
+   },
+   "gap": 0.12
+  },
+  {
+   "id": "l13",
+   "scene": "report",
+   "voice": "you",
+   "say": "Donner station. All clear.",
+   "hi": {
+    "clear": "o"
+   },
+   "q": true,
+   "gap": 0.31
+  },
+  {
+   "id": "l14",
+   "scene": "echo",
+   "voice": "nar",
+   "say": "A minute later, the radio clicks on.",
+   "hi": {
+    "clicks": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l15",
+   "scene": "echo",
+   "voice": "you_radio",
+   "from": "l13",
+   "say": "Donner station. All clear.",
+   "hi": {
+    "clear": "r"
+   },
+   "q": true,
+   "gap": 0.23
+  },
+  {
+   "id": "l16",
+   "scene": "echo2",
+   "voice": "nar",
+   "say": "Your voice. But you never pressed the button.",
+   "hi": {
+    "your": "o",
+    "never": "r",
+    "pressed": "r"
+   },
+   "gap": 0.27
+  },
+  {
+   "id": "l17",
+   "scene": "window",
+   "voice": "nar",
+   "say": "In the snow, there are footprints leading to your door.",
+   "hi": {
+    "footprints": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l18",
+   "scene": "window",
+   "voice": "nar",
+   "say": "None leading away.",
+   "hi": {
+    "none": "r"
+   },
+   "gap": 0.31
+  },
+  {
+   "id": "l19",
+   "scene": "door",
+   "voice": "nar",
+   "say": "Then someone knocks.",
+   "hi": {
+    "knocks": "r"
+   },
+   "gap": 0.42
+  },
+  {
+   "id": "l20",
+   "scene": "door",
+   "voice": "jak",
+   "say": "Search and rescue! Avalanche coming. Two minutes. Open the door!",
+   "hi": {
+    "search": "o",
+    "rescue": "o",
+    "two": "r",
+    "minutes": "r",
+    "open": "r",
+    "door": "r"
+   },
+   "q": true,
+   "gap": 0.31
+  },
+  {
+   "id": "l21",
+   "scene": "logbook",
+   "voice": "nar",
+   "say": "The logbook shows six check-ins tonight.",
+   "hi": {
+    "six": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l22",
+   "scene": "logbook",
+   "voice": "nar",
+   "say": "You only made one.",
+   "hi": {
+    "one": "r"
+   },
+   "gap": 0.19
+  },
+  {
+   "id": "l23",
+   "scene": "logline",
+   "voice": "nar",
+   "say": "The last entry is in your handwriting.",
+   "hi": {
+    "your": "o",
+    "handwriting": "o"
+   },
+   "gap": 0.15
+  },
+  {
+   "id": "l24",
+   "scene": "logline",
+   "voice": "you",
+   "say": "3:24 AM. I opened the door.",
+   "hi": {
+    "opened": "r",
+    "door": "r"
+   },
+   "q": true,
+   "gap": 0.31
+  },
+  {
+   "id": "l25",
+   "scene": "clock",
+   "voice": "nar",
+   "say": "It's 3:23.",
+   "hi": {
+    "3:23": "r"
+   },
+   "gap": 0.38
+  },
+  {
+   "id": "l27a",
+   "scene": "whisper",
+   "voice": "whisper",
+   "say": "That's not you in there.",
+   "hi": {
+    "not": "r"
+   },
+   "q": true,
+   "gap": 0.23
+  },
+  {
+   "id": "l27b",
+   "scene": "reflect",
+   "voice": "whisper",
+   "say": "I'm the real watchman.",
+   "hi": {
+    "real": "r",
+    "watchman": "r"
+   },
+   "q": true,
+   "gap": 0.38
+  },
+  {
+   "id": "l28",
+   "scene": "cta",
+   "voice": "nar",
+   "say": "Would you open the door?",
+   "hi": {
+    "open": "r",
+    "door": "r"
+   },
+   "gap": 0.19
+  },
+  {
+   "id": "l29",
+   "scene": "cta",
+   "voice": "nar",
+   "say": "Follow for night two.",
+   "hi": {
+    "follow": "o",
+    "two": "o"
+   },
+   "gap": 0.12
+  }
+ ]
+}

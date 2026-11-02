@@ -1,0 +1,27 @@
+glass_hit mixkit#677
+winter_loop mixkit#1175
+creak mixkit#337
+radio_ping mixkit#2544
+knock mixkit#197
+clock mixkit#1060
+wind_int mixkit#1172
+radio_broken mixkit#2563
+radio_noise mixkit#1446
+bass mixkit#685
+swell mixkit#786
+snowsteps mixkit#539
+wind_mtn mixkit#1267
+key_lock mixkit#2842
+terror_sweep mixkit#2630
+roomtone mixkit#3081
+heartbeat mixkit#494
+page mixkit#1105
+horror_hit mixkit#565
+pen mixkit#2367
+swoosh mixkit#1474
+swish mixkit#1495
+deep_beat mixkit#559
+static mixkit#2561
+audio_src/pro/open_impact_1.wav https://mixkit.co/free-sound-effects/impact/ Deep cinematic boom, instant attack, smooth long sub tail, no tonal ring. Source: Mixkit #
+audio_src/pro/sub_drop_1.wav https://mixkit.co/free-sound-effects/bass/ Pure sub-bass drop, pitch falls, about 1 s. Source: Mixkit #2299 'Short bass hit' (direct 
+audio_src/pro/tension_riser_1.wav https://mixkit.co/free-sound-effects/warfare/ Riser of accelerating rotor-like pulses building to a peak about 6 s in, then short tail. 
